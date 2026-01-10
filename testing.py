@@ -9,7 +9,7 @@ print("Python " + "is fun!")
 
 # 4. Using f-strings for formatting
 name = "Alice"
-print(f"Hello, {name}!")
+print("Hello, {name}!")
 
 # 5. Printing numbers and arithmetic results
 print("2 + 3 =", 2 + 3)
