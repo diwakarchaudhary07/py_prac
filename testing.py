@@ -32,3 +32,5 @@ print("First line\nSecond line\t(Indented)")
 language = "Python"
 version = 3.11
 print("I'm learning {} version {}!".format(language, version))
+print("I'm learning {} version {}!".format(language, version))
+print("I'm learning {} version {}!".format(language, version))
