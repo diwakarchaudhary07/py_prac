@@ -3,26 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>My Website</title>
-
-    <!-- CSS yahin likho -->
-    <style>
-        body {
-            background-color: #1e90ff;
-            /* background change */
-            color: white;
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-    </style>
-
+    <title>Search Icon Example</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
+    <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <button><i class="fa fa-search"></i></button>
 
-    <h1>Hello World</h1>
-    <p>My new website</p>
-
+    </div>
 </body>
 
-</html>
+</html>body {
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: #f4f4f4;
+}
+
+
+.search-box {
+display: flex;
+border: 2px solid #333;
+border-radius: 5px;
+overflow: hidden;
+}
+
+.search-box input {
+border: none;
+padding: 10px;
+outline: none;
+width: 200px;
+}
+
+.search-box button {
+background: #333;
+color: white;
+border: none;
+padding: 10px 15px;
+cursor: pointer;
+}
+
+.search-box button:hover {
+background: #555;
+}
